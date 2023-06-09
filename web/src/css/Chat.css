@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+body {
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+    overflow: hidden;
+}
+
+.chatContainer {
+    background-color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+    border-bottom:2px solid gray;
+    padding-bottom:4px;
+}
+
+.leviItem {
+    overflow-y: scroll;
+    background-color: white;
+    padding: 24px;
+}
+
